@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+  background-color: #fffef2;
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+  color: #46595e;
+  font-size: 30px;
+}
+h2 {
+  color: #FA724A;
+  margin-bottom: -15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #73654D;
+}
+.social-media {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 20px;
+  margin-bottom: -5px;
+}
+.social-media li {
+  display: inline;
+  padding: 10px;
+}
+.social-media a {
+  color: grey;
+}
+.social-media a:hover {
+  color: lightgrey;
+}
+#profile-pic {
+  border-radius: 50%;
+  margin-bottom: 10;
+  margin-top: -10;
+}
+#profile-pic:hover
+{ opacity: 30%;
+}
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+.card {
+  background-color: #F1EFE1;
+  padding: 4px;
+  border: 1px solid lightgrey;
+  margin: 15;
+  text-align: center;
+  box-shadow: 0px 2px 3px lightgrey;
+}
+.card_footer {
+  background-color: #F1EFE1;
+  padding: 0;
+  border: 1px solid lightgrey;
+  margin: 15;
+  text-align: center;
+  box-shadow: 0px 2px 1px lightgrey;
+}
+.card_footer h2{
+  margin-top: 10;
+}
+.button-orange {
+  background-color: #FA724A;
+  border-radius: 3px;
+  padding: 5;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
